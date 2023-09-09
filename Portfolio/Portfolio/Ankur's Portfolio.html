@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AnkurAnand Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg">
+    <header class="font">
+        <nav>
+            <div class="left">Ankur's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li class="red">Home</li>
+                    <li>About Me</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Home -->
+        <section class="section1">
+            <div class="leftsection">
+                Hi, I am <span class="purple">AnkurAnand</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="Dev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="section2">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work <span class="work">Experince</span></h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="img-top" src="python.png" alt="">
+                    <div class="ver-title">Python Programing</div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="c.png" alt="">
+                    <div class="ver-title">C Programming</div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top big" src="html.png" alt="">
+                    <div class="ver-title bigs">HTML & CSS & JavaScript</div>
+                </div>
+                <div class="vertical">
+                    <img class="img-top" src="dsa.png" alt="">
+                    <div class="ver-title">Data Structure and Algorithm</div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="social">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Copyright © 2021 | All Rights Reserved by AnkurAnand
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Web Designer', 'Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg{
+    background: #09323e;
+    
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+header{
+    /* font-family: 'Handjet', cursive; */
+    color: aliceblue;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background: #8975ef;
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+    font-size: 1.081rem;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: #00E8F8;
+    font-size: 1.2rem;
+}
+
+.red{ 
+    color: #00E8F8;
+}
+
+.left{
+    font-size: 2rem;
+    font-family: 'Handjet', cursive;
+}
+
+.section1{
+    color:  white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 110px 0;
+}
+
+.section1 > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 3rem ;
+    /* font-family: 'Ubuntu', sans-serif; */
+}
+
+.rightsection img{
+    width: 80%;
+    margin: 50px 0;
+}
+
+.purple{
+    color:#00E8F8!important;
+    
+}
+
+#element{
+    color:#00E8F8!important;
+}
+
+.section2{
+    /* background: rgb(232, 244, 235); */
+    color: aliceblue;
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+main hr{
+    border: 0;
+    height:.08rem;
+    background-color: #de5959;
+    margin: 20px 80px;
+}
+
+.work{
+    color: #00E8F8;
+}
+.section2 .box{
+    background: rgb(105, 6, 6);
+    width: 80vw;
+    height: 2px;
+    margin: 90px 0;
+    display: flex;
+}
+.section2 .vertical{
+    background: rgb(117, 15, 15);
+    width: 1px;
+    height: 90px;
+    margin: 0 166px;
+}
+
+.img-top{
+    width: 50px;
+    position: relative;
+    top:-61px ;
+    left: -24px;
+}
+
+.big{
+    width: 75px;
+    top: -41px;
+}
+
+
+.ver-title {
+    position: relative;
+    top: 41px;
+    width: 212px;
+    font-size: 1.5em;
+    left: -51px;
+    font-family: 'Roboto Mono', monospace;
+    color: aliceblue;
+}
+
+.bigs{
+    top: 64px;
+}
+.button{
+    padding: 14px;
+}
+
+.btn{
+    padding: 15px;
+    background: rgb(43, 82, 121);
+    border: 2px solid white;
+    border-radius: 3px!important;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #00E8F8;
+    color: aliceblue;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    text-align: center;
+    background:#00E8F8;
+    height: 35px;
+    padding: 12px 200px;
+}
+
+footer{
+    font-size: 1.2rem;
+    text-align: center;
+    background:#00E8F8;
+    height: 25px;
+    padding: 8px
+}
+
+
